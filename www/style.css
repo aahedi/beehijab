@@ -1,0 +1,187 @@
+#layang{background-color:#2196F3 }
+#navbawah{background-color:#666}
+#navbawah #border{/*border-right: #0D47A1 solid;*/border:none}
+/*--tambahan--*/
+.bagian{float:left;width:100%;padding:10px;}
+.bagian .bag-left a{color:#666}
+.bag-left{float:left;width:75%}
+.bagian .bag-right a{color:#2196F3 }
+.bag-right{float:right;width:25%}
+.menu{overflow-x:auto;overflow-y:hidden;/*white-space:nowrap;*/}
+#icon_produk{filter: saturate();float:left;margin-right: 100px;width:100px;}
+/*--tambahan--*/
+i{font-size: 18px;}
+#navbawah i{font-size: 25px;}
+sup{color:#2196F3 }
+.kateg{background-color:#ddd;}
+li.kate {display:none;}
+li.kateg {display:block;}
+#marquee{background-color:#2196F3 }
+#judul_isi,.judul_isi{background-color:#2196F3;color:#fff}
+#content{background-image:url('');background-repeat:repeat;background-size:100px;background-color:#fff;}
+.page img{max-width: 100%;height: auto}
+.page iframe {max-width: 100%;}
+.text_berjalan,#nama_aplikasi{color:#fff}
+/*-----------------------------------------------------*/
+body,html{padding: 0px;margin:0px;
+width:100%;height:100%;
+background-color:#F5F5F5;
+ font-family: system,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,Sans-serif; font-size: 14px
+}
+#marquee input[type="text"]:disabled{background:transparent;border:none;outline:none;width:480px;height:0px;margin-bottom:-7px;}
+#marquee{position:fixed;margin: auto;bottom:0px;left:0px;width:100%;border-top:2px solid #ddd;overflow: hidden;
+z-index: 9;text-align:center;color:#000;padding:2px}
+#example{color:black}
+#isi{width:100%;overflow: hidden;margin: auto;margin-top: 86px;margin-bottom: 0px;padding-bottom: 0px}
+#footer{width:99%;overflow: hidden;margin: auto;text-align: center;padding:2px;font-weight: bold;margin-top: 20px;}
+.keranjang{float:left;background-image: url('image/icon/cart.png');width:100px;height: 50px;text-align: center;font-weight: bold}
+.profile,.login{float:right;margin-right: 10px;}
+
+#footer2{height:100px;}
+.habis{width:96px;height:96px;box-shadow:0px 0px 0px black;background-image: url('image/habis.png');position: absolute;}
+/*----------------*/
+#judul_isi,.judul_isi{padding:5px;width: 100%;text-align: center;text-transform: uppercase;font-weight: bold;margin-top: 0px;word-wrap: break-word; font-size:12px;}
+#sub_isi a{text-decoration: none;font-weight: bold;padding-bottom: 40px;}
+button,input[type="submit"],input[type="button"]{padding: 10px;font-weight: bold;}
+input[type="radio"]:checked+label{ font-weight: bold; } 
+input[type="checkbox"]{width: 25px; height: 25px;padding: 25px;}
+#search_area{}
+input[type="search"]{border:none;padding:10px;width: 100%}
+
+input[type="email"],input[type="tel"],input[type="number"],input[type="text"],input[type="password"],textarea,select{width:95%;padding: 10px;border-width: 0px;background-color: #FFF;border-bottom: 1px solid #ccc}
+input[type="file"]{width:90%;}
+/*input[type="number"]:hover,input[type="password"]:focus,input[type="text"]:focus,input[type="text"]:focus,input[type="search"]:focus,textarea:focus,select:focus{background: #feffd0}*/
+input[type="number"],input[type="password"],input[type="text"],input[type="search"],textarea,select{border-radius: 5px;}
+select{max-width: 95%;width: 200px;}
+.thum_produk{width:100px;height:100px; background-image:url(image/logo.jpg); background-repeat:no-repeat;}
+.thum_produk img{border: 2px solid white;box-shadow:0px 0px 2px black;}
+table tr td{vertical-align: top}
+table{width:100%}
+.daftar_bank{overflow: hidden;width:45%;padding: 5px;float: left;}
+#layang_footer a{color:white;text-decoration: none;}
+.ket{width:100%;padding:5px;overflow: hidden;background-color:#feffd0;color:#000}
+.peta iframe{width:100%}
+#logo img{width:100%;height:100%}
+#logo{width: 40px;height:40px;float: left;margin-right: 5px;}
+.nama_app{float: left;height: 40px;width:60%;text-transform: uppercase;font-weight: bold;color:white}
+.diskon{text-decoration: line-through;color:red}
+/*----------------------menu-------------------------*/
+#main_container{width:100%;height:100%;margin:auto;position:relative;}
+.menu{width:100%;padding:5px 0px 0px 0px;text-align:center;margin:0;margin-left:-3px;margin-top:-3px;}
+.menu ul{list-style:none;padding:0px;margin:0px;display:inline;line-height:15px;}
+.menu ul li{list-style:none;display:inline-block;width:100px;height:160px;overflow: hidden; margin: 0px 2px 0px 4px; background:url() no-repeat center top; vertical-align:top;word-wrap: break-word;border: none;border-width:thin;}
+.menu ul li a{ font-size:12px;text-decoration:none;display: block;color:#333;font-weight:bold;white-space:initial;}
+.menu ul li a img{padding-top:5px;  height:auto;background-image: url('css/AjaxLoader.gif');background-repeat: no-repeat;background-position: center center;width:100%;}
+/*---------------------content style-----------------*/
+.kategori .menu{height:80px;}.kategori .menu ul li a img{width:50px;height:50px;}.kategori .menu ul li{width:50px;margin:2px}
+/*---------------------content style-----------------*/
+#daftar {background-color:white; border-spacing: 10px;border-collapse: separate;}
+
+#no-more-tables table{table-layout: fixed;}
+table tr td{word-wrap: break-word;}
+#no-more-tables table,#no-more-tables thead,#no-more-tables tbody,#no-more-tables th,#no-more-tables td,#no-more-tables tr {display: block;}
+#no-more-tables thead tr {position: absolute;top: -9999px;left: -9999px;}
+#no-more-tables tr {border: 1px solid #ccc; }
+#no-more-tables td {border: none;border-bottom: 1px solid #eee;position: relative;padding-left: 50%;white-space: normal;text-align:left;}
+#no-more-tables td:before {position: absolute;top: 6px;left: 6px;width: 45%;padding-right: 10px;white-space: nowrap;text-align:left;font-weight: bold;word-wrap: break-word; }
+#no-more-tables td:before { content: attr(data-title); }
+button,input[type="submit"],input[type="button"],input[type="reset"] {
+
+
+	background-color:#666;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+}
+
+.keranjang{background-image: url('image/cart.png');width: 50px;height:30px;background-repeat: no-repeat;color:white}
+.contents{list-style: none;padding:0px;}
+.contents ul{margin:0px;padding:0px;}
+.contents li{margin-bottom: 10px;margin:0px;padding:0px;}
+
+/* Pagination style */
+.pagination{margin:0;padding:5px;margin-bottom:10px;}
+.pagination li{display: inline;padding: 9px 13px 9px 13px;border: 1px solid #ddd;margin-right: -1px;font: 15px/20px Arial, Helvetica, sans-serif;background: #FFFFFF;box-shadow: inset 1px 1px 5px #F4F4F4;}
+.pagination li a{text-decoration:none;color: rgb(89, 141, 235);}
+.pagination li.first {border-radius: 5px 0px 0px 5px;}
+.pagination li.last {border-radius: 0px 5px 5px 0px;}
+.pagination li:hover{background: #CFF;}
+.pagination li.active{background: #F0F0F0;color: #333;}
+
+#popup{text-align: center;position: fixed;width: 100%;height: 100%;top:-1px;left: -1px;background-color:black;display:none}
+#popup{z-index: 99999999999999;-webkit-transform-style: preserve-3d;-moz-transform-style: preserve-3d;transform-style: preserve-3d;background-color:rgba(0,0,0,0.9);}
+#atas_popup {height:200;width:95%;border:0px solid red;margin:auto;margin-top:5px;text-align:right;max-width:500px;}
+#sub_popup {height:200;width:95%;border:0px solid red;margin:auto;margin-top:5px;}
+#sub_popup img{width:100%;max-width:500px;}
+
+#owl-demo .item{margin: 3px;}
+#owl-demo .item img{display: block;width: 100%}
+
+.list:hover{background-color:#FAFAFA}
+.hasil_cari ul{border:0px solid blue;padding:0px;margin:0px;list-style: none}
+.hasil_cari ul li{border:0px solid red;text-align:left;padding:5px}
+.hasil_cari ul li:hover{background-color:#FAFAFA;color:white}
+.hasil_cari ul a{text-decoration: none;color:black;font-weight:bold}
+.hasil_cari{width: 95%;max-height: 200px;overflow: hidden;position: absolute;background-color:white;overflow-y: scroll;margin-left: 4px;box-shadow: 1px 1px 5px 0px}
+
+.informasi{display:inline-block;width:100%;height:auto;overflow: hidden;margin-top: 10px; background:url() no-repeat center top; vertical-align:top;border:#ddd solid;border-width:thin;background-color:#fff}
+.informasi table tr td{word-wrap: break-word;display:inline-block}
+a {text-decoration: none;font-weight: bold}
+
+.kembali{z-index: 999999;height: 35px;width: 100%;background:#2196F3;opacity: 0.7;filter: alpha(opacity=70);}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #a9a9a9;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #787878;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #787878;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-track:active {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+@media only screen and (max-device-width: 736px) {
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+}
+
+/*--tampilan seperti tokomobile--*//*
+.menu ul li {width:100%; height:auto; text-align:left; margin:0px; border-bottom: 1px #ccc solid;}
+.menu ul li a img {width: 100px; float: left; padding: 0px 5px 0px 10px;}*/

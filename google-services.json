@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "508074429531",
+    "firebase_url": "https://cline-4fe5c.firebaseio.com",
+    "project_id": "cline-4fe5c",
+    "storage_bucket": "cline-4fe5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508074429531:android:972ba1b8974c1da0",
+        "android_client_info": {
+          "package_name": "tokojs.com.app.cline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508074429531-6dn1lfogct9v5njdkmqv0umb8chv7tu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCybD0JYFCHorxZ2FlVWZfvPCvy1XvrFfU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

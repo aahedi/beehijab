@@ -1,0 +1,68 @@
+﻿/* this selector could be div#navatas instead of navatas depending on which tag you wrapped the ul in */
+navatas {
+display: table;
+border-collapse: collapse;
+border: none;
+width:100%;
+  background: #536ea7;
+  border-bottom: 1px solid #111b32;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 40px;
+  text-align:center;
+  z-index:999999999999;
+}
+navatas ul {
+display: table-row;
+text-align:center;
+}
+navatas li {
+display: table-cell;
+margin: 0;
+}
+navatas ul li	{ float: center; list-style-type: none;}
+navatas ul li a { color: white; display: block; font-family: Arial; padding: 20px 0px; text-decoration: none; font-size:12px}
+navatas ul li a:hover { background: #039; }
+
+/* this selector could be div#navatas instead of navatas depending on which tag you wrapped the ul in */
+#navbawah {
+display: table;
+border-collapse: collapse;
+border: none;
+width:100%;
+  background: #E86319;
+  border-top: 1px solid #111b32;
+  position: fixed;
+  top:50px;
+  right: 0;
+  left: 0;
+  height: 30px;
+  text-align:center;
+  z-index:998;
+}
+
+#navbawah img{width: 25px;}
+
+#navbawah ul {
+display: table-row;
+text-align:center;
+}
+#navbawah li {
+display: table-cell;
+margin: 0;
+border-bottom:2px solid #555;
+}
+#navbawah #border{
+border-right:#555 solid;
+}
+#navbawah ul li	{ float: center; list-style-type: none;}
+#navbawah ul li a { color: white; display: block; font-family: Arial; padding: 4px 0px 3px 0px; text-decoration: none; font-size:12px}
+#navbawah ul li a:hover { background: #555; }
+#layang {position:fixed;margin: auto;top:0px;left:0px;width:100%;border-bottom:2px solid #FFF;overflow: hidden;z-index: 999;padding:5px;background-color:#E86319;height:40px;}
+#layang #logo_menu img{width: 25px; height:25px; margin-top:6px;}
+#logo img{width:100%;height:100%}
+#logo{width: 40px;height:40px;float: left;margin-right: 5px;}
+.nama_app{float: left;height: 40px;width:60%;text-transform: uppercase;font-weight: bold;color:white}
+#logo_menu{float: right;height: 40px;width:40px;margin-right: 10px; background-repeat:no-repeat;}
